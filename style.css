@@ -62,3 +62,32 @@
     right: 735px;
 }
 
+#buttons-div {
+    margin-top: 50px;
+    display: flex;
+    gap: 32px;
+}
+
+#buttons-div button {
+    width: 222px;
+    height: 103px;
+    border-radius: 17px;
+    border: none;
+    box-shadow: 0 8px 5px #C7C7C7;
+    background: #F0F0F0;
+    color: #1D1D1D;
+    font-size: 36px;
+    font-weight: 500;
+    transition: .2s;
+    cursor: pointer;
+}
+
+#buttons-div button:hover {
+    background: #DBDBDB;
+    box-shadow: 0 8px 5px #B3B3B3;
+}
+
+#buttons-div button:active {
+    transform: translateY(4px);
+    box-shadow: 0 4px 5px #B3B3B3;
+}
